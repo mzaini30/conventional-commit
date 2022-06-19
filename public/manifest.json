@@ -1,14 +1,13 @@
 {
-  "name": "Zenia",
-  "description": "Berbagai tools yang dibuat oleh Zen",
+  "name": "Conventional Commit",
+  "description": "Showing conventional commit in your navbar",
   "icons": {
     "128": "icon.png"
   },
   "version": "0.0.1",
-  "background": {
-    "scripts": ["background.js"]
-  },
   "manifest_version": 2,
-  "browser_action": {},
+  "browser_action": {
+    "default_popup": "index.html"
+  },
   "content_security_policy": "default-src 'self'; script-src 'self' http://localhost:3000 'unsafe-eval'; connect-src *; style-src * 'unsafe-inline' 'self' blob:; img-src * data:; font-src *;"
 }
